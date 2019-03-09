@@ -4,7 +4,9 @@
 Решил сразу делать задание со звездочкой.
 
 Структура каталога с ролью:
-── ansible.cfg
+<pre>
+.
+├── ansible.cfg
 ├── provision
 │   ├── playbook.yml
 │   └── roles
@@ -21,3 +23,4 @@
 │           └── vars
 │               └── main.yml
 └── Vagrantfile
+</pre>
