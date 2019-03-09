@@ -1,0 +1,7 @@
+---
+- name: "nginx systemd grip"
+  systemd:
+    name: "{{ otus_nginx.service }}"
+    state: started
+    enabled: yes
+...
