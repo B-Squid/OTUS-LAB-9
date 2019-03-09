@@ -1,0 +1,5 @@
+---
+otus_nginx:
+  package: nginx
+  service: nginx
+...
