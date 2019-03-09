@@ -1,0 +1,13 @@
+---
+- name: "install nginx"
+  yum:
+    name: "{{ otus_nginx.package }}"
+    state: present 
+
+- name: "config file"
+  template:
+    src: templates/nginx.conf.j2
+    dest: /etc/nginx/nginx.conf
+  notify:
+  - nginx systemd grip 
+...
